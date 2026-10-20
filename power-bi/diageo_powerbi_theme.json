@@ -1,0 +1,96 @@
+{
+  "name": "Diageo Synthetic Portfolio",
+  "dataColors": [
+    "#C9A45C",
+    "#6F8FAF",
+    "#2A8C82",
+    "#C65D57",
+    "#9AA7B5",
+    "#D8E3EC",
+    "#8E6F3E",
+    "#496A89"
+  ],
+  "background": "#0B1526",
+  "foreground": "#F4F6F8",
+  "tableAccent": "#C9A45C",
+  "good": "#2A8C82",
+  "neutral": "#C9A45C",
+  "bad": "#C65D57",
+  "maximum": "#234C72",
+  "center": "#F7F4EE",
+  "minimum": "#D8E3EC",
+  "visualStyles": {
+    "*": {
+      "*": [
+        {
+          "background": [
+            {
+              "color": {
+                "solid": {
+                  "color": "#F7F4EE"
+                }
+              },
+              "transparency": 0
+            }
+          ],
+          "border": [
+            {
+              "show": false
+            }
+          ],
+          "title": [
+            {
+              "show": true,
+              "fontFamily": "Arial",
+              "fontSize": 12,
+              "fontColor": {
+                "solid": {
+                  "color": "#152235"
+                }
+              },
+              "alignment": "left"
+            }
+          ],
+          "visualHeader": [
+            {
+              "show": false
+            }
+          ]
+        }
+      ]
+    },
+    "page": {
+      "*": [
+        {
+          "background": [
+            {
+              "color": {
+                "solid": {
+                  "color": "#0B1526"
+                }
+              },
+              "transparency": 0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "textClasses": {
+    "title": {
+      "fontFace": "Arial",
+      "fontSize": 14,
+      "color": "#152235"
+    },
+    "label": {
+      "fontFace": "Arial",
+      "fontSize": 10,
+      "color": "#152235"
+    },
+    "callout": {
+      "fontFace": "Arial",
+      "fontSize": 26,
+      "color": "#152235"
+    }
+  }
+}
